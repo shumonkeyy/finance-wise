@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <>
       <div className="row row-deco row-1">
-        <div className="col-md-6 my-auto text-end">
+        <div className="col-md-6 my-auto text-center">
           <h1>Investing in your future.</h1>
           <a href="">Get Involved Today.</a>
         </div>
@@ -18,9 +18,9 @@ const Home = () => {
 
       <div className="row row-deco row-2">
         <div className="col-md-6 my-auto text-center">
-          <img src="https://placehold.co/600x400" alt="" />
+          <img src="https://placehold.co/400x400" alt="" />
         </div>
-        <div className="col-md-6 my-auto">
+        <div className="col-md-6 my-auto px-5 py-3">
           <h2>Our Mission</h2>
           <p>
             To level out educational disparities and equip youth with money
@@ -32,7 +32,7 @@ const Home = () => {
 
       <div className="row row-deco row-3">
         <div className="text-center my-auto">
-          <h2 className="mb-5">
+          <h2 className="mb-5 px-5">
             Become WISEr with WISE and get involved today.
           </h2>
           <div className="row text-start">

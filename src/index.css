@@ -3,13 +3,14 @@
 
 nav {
   background-color: #72bf78 !important;
-  height: 100px;
+  min-height: 100px;
 }
 .row-1 {
   background-color: #d3ee98 !important;
 }
 .row-deco {
-  height: 80vh;
+  padding: 50px 0px;
+  min-height: 80vh;
 }
 .row-2 {
   background-color: white !important;

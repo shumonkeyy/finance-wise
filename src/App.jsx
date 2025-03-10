@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./pages/home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Foot from "./components/Foot";
 import Navbar from "./components/Navbar";
 import AboutUs from "./pages/AboutUs";
 import GetInvolved from "./pages/GetInvolved";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/get-involved" element={<GetInvolved />} />
         </Routes>

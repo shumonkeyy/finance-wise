@@ -1,5 +1,6 @@
 import React from "react";
-const Home = () => {
+
+const HomePage = () => {
   return (
     <>
       <div className="row row-deco row-1">
@@ -62,4 +63,4 @@ const Home = () => {
     </>
   );
 };
-export default Home;
+export default HomePage;

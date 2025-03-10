@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div class="navigation">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand ms-4" href="#">
+    <div className="navigation">
+      <nav className="navbar navbar-expand-lg">
+        <div className="container-fluid">
+          <a className="navbar-brand ms-4" href="#">
             WISE
           </a>
           <button
-            class="navbar-toggler text-end"
+            className="navbar-toggler text-end"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
@@ -19,24 +19,24 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item mx-3">
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul className="navbar-nav mx-auto">
+              <li className="nav-item mx-3">
                 <Link to="/" className="nav-link active">
                   Home
                 </Link>
-                {/* <a class="nav-link active" aria-current="page" href="#">
+                {/* <a className="nav-link active" aria-current="page" href="#">
                     Home
                   </a> */}
               </li>
-              <li class="nav-item mx-3">
+              <li className="nav-item mx-3">
                 <Link to="/about-us" className="nav-link">
                   About Us
                 </Link>
               </li>
-              <li class="nav-item mx-3">
+              <li className="nav-item mx-3">
                 <Link to="/get-involved" className="nav-link">
                   Get Involved
                 </Link>

@@ -3,22 +3,29 @@
 
 nav {
   background-color: #72bf78 !important;
-  min-height: 100px;
+  min-height: 75px;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .row-1 {
-  background-color: #d3ee98 !important;
+  background-color: #d3ee98;
+  margin-top: 75px !important;
 }
 .row-deco {
   padding: 50px 0px;
   min-height: 80vh;
 }
 .row-2 {
-  background-color: white !important;
+  background-color: white;
 }
 .row-3 {
-  background-color: #feff9f !important;
+  background-color: #feff9f;
 }
 body {
-  /* font-family: "Quicksand", sans-serif !important; */
   font-family: "DM Sans", sans-serif !important;
+}
+h1 {
+  font-size: 50px !important;
 }

@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import AboutUs from "./pages/AboutUs";
 import GetInvolved from "./pages/GetInvolved";
 import HomePage from "./pages/HomePage";
+import "animate.css";
 
 function App() {
   return (

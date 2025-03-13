@@ -5,7 +5,9 @@ const HomePage = () => {
     <>
       <div className="row row-deco row-1">
         <div className="col-md-6 my-auto text-center">
-          <h1>Investing in your future.</h1>
+          <h1 className="animate__animated animate__fadeInUp">
+            Investing in your future.
+          </h1>
           <a href="">Get Involved Today.</a>
         </div>
         <div className="col-md-6 my-auto text-center">
